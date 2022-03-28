@@ -9,6 +9,7 @@ import Home from './Home/Home';
 import SignUp from './SignUp/SignUp';
 import Navbar from './Navbar/Navbar';
 import Login from './Login/Login';
+import Footer from './Home/Footer/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,7 +21,7 @@ ReactDOM.render(
       <Route path='signUp' element={<SignUp></SignUp>} />
       <Route path='login' element={<Login/>} />
     </Routes>
-    
+    <Footer></Footer>
     </BrowserRouter>
     
   </React.StrictMode>,
