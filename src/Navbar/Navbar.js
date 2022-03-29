@@ -20,7 +20,9 @@ const Navbar = () => {
         </nav>
   </Grid>
   <Grid item xs={7} md={8}>
-  <Link style={{textDecoration:'none', color:'yellow', fontFamily: 'Lobster', fontSize:'30px'}} to='/'>ED-TECH</Link>
+ <div style={{display:"flex", justifyContent:'center'}}>
+ <Link style={{textDecoration:'none', color:'yellow', fontFamily: 'Lobster', fontSize:'30px'}} to='/'>ED-TECH</Link>
+ </div>
   </Grid>
 </Grid>
           <Typography sx={{ flexGrow: 1 }} container  spacing={4} >

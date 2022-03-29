@@ -13,7 +13,7 @@ import Footer from './Home/Footer/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
-    
+    <>
     <BrowserRouter>
     <Navbar></Navbar>
     <Routes>
@@ -23,7 +23,7 @@ ReactDOM.render(
     </Routes>
     <Footer></Footer>
     </BrowserRouter>
-    
+    </>
   </React.StrictMode>,
   document.getElementById('root')
 );

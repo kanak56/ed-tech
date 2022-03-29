@@ -1,10 +1,11 @@
-import { Button, Card, CardActionArea, CardContent, CardMedia, Grid, Typography } from '@mui/material';
+import { Box, Button, Card, CardActionArea, CardContent, CardMedia, Grid, Typography } from '@mui/material';
 import React from 'react';
 
 const Product = () => {
     return (
-        <Grid container >
-        <Grid   style={{height:'450px', width:'350px'}} xs={12} md={4}>
+   
+          <Grid  className='App-Grid' >
+        <Grid className='App-Box'  style={{height:'450px', width:'350px'}} xs={12} md={4}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -28,10 +29,11 @@ const Product = () => {
            <Button variant="contained">Enroll Now</Button>
            </div>
           </Grid>
-    <Grid  style={{height:'450px', width:'350px'}} xs={12} md={4}>
+    <Grid className='App-Box' style={{height:'450px', width:'350px'}} xs={12} md={4}>
       <CardActionArea>
         <CardMedia
           component="img"
+          style={{borderRadius:"10px"}}
           height="140"
           image="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png"
         />
@@ -51,7 +53,7 @@ const Product = () => {
            <Button variant="contained">Enroll Now</Button>
            </div>
         </Grid>
-    <Grid style={{height:'450px', width:'350px'}} xs={12} md={4}>
+    <Grid className='App-Box' style={{height:'450px', width:'350px'}} xs={12} md={4}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -73,7 +75,7 @@ const Product = () => {
            <Button variant="contained">Enroll Now</Button>
            </div>
         </Grid>
-    <Grid style={{height:'400px', width:'350px'}} xs={12} md={4}>
+    <Grid className='App-Box' style={{height:'400px', width:'350px'}} xs={12} md={4}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -95,10 +97,11 @@ const Product = () => {
            <Button variant="contained">Enroll Now</Button>
            </div>
         </Grid>
-    <Grid style={{height:'400px', width:'350px'}} xs={12} md={4}>
+    <Grid className='App-Box' style={{height:'400px', width:'350px'}} xs={12} md={4}>
       <CardActionArea>
         <CardMedia
           component="img"
+          style={{borderRadius:'10px'}}
           height="140"
           image="https://user-images.githubusercontent.com/40702606/111074799-bdfbcf00-84dc-11eb-98c0-d40a99aa0da7.png"
         />
@@ -117,6 +120,7 @@ const Product = () => {
            </div>
         </Grid>
     </Grid>
+
         
     );
 };

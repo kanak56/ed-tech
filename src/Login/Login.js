@@ -2,7 +2,7 @@ import React from 'react';
 
 const Login = () => {
     return (
-        <div>
+        <div style={{height:'100vh'}}>
             This is Login
         </div>
     );
